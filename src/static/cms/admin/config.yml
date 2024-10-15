@@ -2,13 +2,13 @@ local_backend: true
 backend:
   name: git-gateway
   branch: main
-media_folder: "/static/cms/uploads"
+media_folder: "/src/static/cms/uploads"
 collections:
 
   - label: "Articles"
     label_singular: "Article"
     name: "articles"
-    folder: "/articles/"
+    folder: "/src/articles/"
     extension: "html"
     format: "yaml-frontmatter"
     frontmatter_delimiter: [
