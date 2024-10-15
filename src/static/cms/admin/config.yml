@@ -31,7 +31,7 @@ collections:
     files:
       - label: "Article listing"
         name: "links_articles"
-        file: "/static/data/links/articles.json"
+        file: "/src/static/data/links/articles.json"
         extension: "json"
         format: "json"
         fields:
@@ -54,7 +54,7 @@ collections:
 
       - label: "Page navigation"
         name: "links_pages"
-        file: "/static/data/links/pages.json"
+        file: "/src/static/data/links/pages.json"
         extension: "json"
         format: "json"
         fields:
